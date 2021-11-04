@@ -89,7 +89,7 @@ void *array_bytes(void *x, int d, unsigned int len)
 		p++;
 		n++;
 	}
-	return (a);
+	return (x);
 }
 
 /**

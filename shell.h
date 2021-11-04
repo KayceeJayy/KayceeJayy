@@ -98,5 +98,6 @@ void pr_num(unsigned int n);
 void pr_num_in(int n);
 void dis_err(char *line, int c, char **argv);
 void err_pr(char **argv, int c, char **cmd);
+void print_error(char *input, int counter, char **argv);
 
 #endif

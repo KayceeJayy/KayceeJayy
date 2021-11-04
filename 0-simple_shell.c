@@ -20,7 +20,7 @@ int main(__attribute__((unused)) int argc, char **argv)
 		_count++;
 		if (isatty(STDIN_FILENO))
 			prompt();
-		_inp = read__inp();
+		_inp = read_input();
 		if (_inp[0] == '\0')
 		{
 			continue;
